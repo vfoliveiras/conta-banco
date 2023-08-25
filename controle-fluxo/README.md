@@ -1,11 +1,11 @@
-# Controle de Fluxo
+# Controle de Fluxo com Loop e Exceções Personalizadas.
 
-Desenvolvi esse projeto para aprimorar as habilidades relacionadas ao controle de fluxo em Java. O cenário proposto envolve a criação de um programa que recebe dois números inteiros como parâmetros via terminal. Com base nesses números, o programa executa uma contagem usando um loop `for` e imprime os números incrementados no console.
+Nesta resolução de desafio, utilizei as habilidades adquiridas em controle de fluxo em Java para criar um programa que realiza uma contagem controlada a partir de dois números inteiros fornecidos via terminal. Para isso, desenvolvi um projeto que demonstra a aplicação de conceitos como entrada de dados, uso de loops `for` e tratamento de exceções personalizadas.
 
-A classe `Contador.java` foi criada para implementar a lógica do programa. Ela utiliza os conceitos de entrada de dados via terminal, estrutura de controle de fluxo e manipulação de exceções personalizadas. O usuário é guiado para inserir os dois parâmetros, representando os números para a contagem.
+A classe `Contador.java` é a peça central dessa implementação. Através dela, é possível inserir os parâmetros de entrada e observar o programa executar a contagem, imprimindo os números incrementados no console. Uma das inovações é o uso do loop `for` para percorrer os valores e realizar a contagem de forma eficiente.
 
-Um loop `for` é utilizado para realizar a contagem dos números e imprimi-los no console. Além disso, uma exceção customizada chamada `ParametrosInvalidosException` é lançada caso o primeiro parâmetro seja maior que o segundo, conforme as regras definidas.
+Ao mesmo tempo, a resolução abrange o tratamento de uma situação especial: quando o primeiro parâmetro é maior que o segundo. Utilizei uma exceção customizada chamada `ParametrosInvalidosException` para lidar com esse caso, de acordo com as diretrizes do desafio.
 
-O código também demonstra o uso de tratamento de exceções, em que a mensagem `"O segundo parâmetro deve ser maior que o primeiro"` é exibida no console quando essa exceção é capturada.
+Além disso, adicionei um refinamento extra à solução. Quando o primeiro parâmetro é inválido, o código entra em um loop `do-while`, permitindo que o usuário insira novamente os valores até que a condição seja satisfeita. Isso garante que apenas valores válidos sejam utilizados para a contagem.
 
-Por meio deste desafio, pratiquei e aprofundei meu entendimento sobre estruturas de controle de fluxo, manipulação de exceções e interação com o terminal, aprimorando minha capacidade de criar programas mais complexos e robustos em Java.
+A resolução deste desafio me proporcionou a oportunidade de consolidar meus conhecimentos em controle de fluxo, aplicando-os a um contexto real. Ao utilizar loops, exceções personalizadas e estruturas de repetição, pude aprimorar minha habilidade em criar programas mais robustos e interativos em Java.
